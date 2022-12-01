@@ -1,6 +1,9 @@
+import { RationalNumber } from "./Number";
+
 export type LinearFunction = {
-  k: number;
-  b: number;
+  k: RationalNumber;
+  v: string;
+  b: RationalNumber;
 }
 
 export type LinearEquation = {

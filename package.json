@@ -1,7 +1,7 @@
 {
   "name": "eq-trainer",
   "private": true,
-  "version": "0.9.0",
+  "version": "0.9.1",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,9 +13,11 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.6.0",
     "react-dom": "^18.2.0",
+    "react-katex": "^3.0.1",
     "sass": "^1.56.1"
   },
   "devDependencies": {
+    "@types/katex": "^0.14.0",
     "@types/react": "^18.0.24",
     "@types/react-dom": "^18.0.8",
     "@vitejs/plugin-react": "^2.2.0",
